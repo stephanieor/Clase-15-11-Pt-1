@@ -1,0 +1,42 @@
+<style>
+
+
+
+h1{
+    font-family: 'Anton', sans-serif;
+}
+h2{
+    font-family: 'Indie Flower', cursive;
+}
+
+p{
+    font-family: 'Ranga', cursive;
+}
+@media screen and (orientation:portrait) {
+    body{
+        background: red;
+    }
+}
+
+@keyframes nombre{
+    from {color:blue; transform:scale(0.7);}
+    to {color:pink; transform: scale(1.5);}
+   
+
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: 'Anton', italic;
+    animation: nombre.5s infinite alternate;
+}
+@keyframes nombreb {
+   from {background:lightblue;}
+   to {background:pink;}
+}
+h2 {
+    text-transform: uppercase;
+    font-family: 'Anton', italic;
+    animation: nombreb.5s infinite alternate;
+}
+</style>
